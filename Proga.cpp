@@ -19,6 +19,6 @@ int main()
     cout << ("%s ", *-- * ++cpp + 3);
     cout << ("%s", *cpp[-2] + 3);
     cout << ("%s\n", cpp[-1][-1] + 1);
-    cout << ("%s\n ", cpp[-1][-1] + 1);
+    cout << ("%s\n ", cpp[-1][+1] + 1);
     return 0;
 }
