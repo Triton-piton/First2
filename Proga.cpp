@@ -9,7 +9,7 @@ int main()
    (char*)"ENTER",
    (char*)"NEW",
    (char*)"POINT",
-   (char*)"FIRST"
+
     };
     char** cp[] = { c + 3, c + 2, c + 1, c };
     char*** cpp = cp;
